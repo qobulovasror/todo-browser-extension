@@ -1,0 +1,17 @@
+{
+    "name": "todo",
+    "description": "todo brawser extention",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "/assets/icons/64.png",
+      "128": "/assets/icons/128.png"
+    }
+  }
